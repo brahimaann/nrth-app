@@ -1,0 +1,24 @@
+.footer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    position: fixed;
+}
+
+.footer a {
+    color: transparent;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 0;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 14px;
+}

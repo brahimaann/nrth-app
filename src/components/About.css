@@ -1,0 +1,49 @@
+/* Set up some basic styles for the page */
+@font-face {
+    font-family: 'Block Bold';
+    src: url('../fonts/TS Block Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Migha';
+    src: url('../fonts/Migha-BoldExpanded.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #0a152a;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 3;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    color: white;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Block Bold, sans-serif;
+    margin-bottom: 20px;
+    place-content: flex-end;
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+    margin-bottom: 50px;
+    font-family: MyCustomFont;
+    text-space: 20px;
+    font-size: 20px;
+    margin-right: 50px;
+}
