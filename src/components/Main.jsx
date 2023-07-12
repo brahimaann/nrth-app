@@ -20,6 +20,13 @@ function Main() {
         overlayRef.current.style.width = `${100 * videoAspectRatio}%`;
     }, []);
 
+    const handleCanPlay = () => {
+        // On mobile, manually play the video when it can be played
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            videoRef.current.play();
+        }
+    };
+
     return (
         <div className="Main">
 
