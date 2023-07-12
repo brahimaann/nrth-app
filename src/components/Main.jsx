@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import videoBG from '../Visuals/vhsrollerbladeslomo for website.mp4';
-import overlayImage from '../Visuals/nrth dvsn front logo.png';
 
 function Main() {
 
@@ -35,7 +34,6 @@ function Main() {
                 <source src={videoBG} type="video/mp4" />
             </video>
             <div className="content">
-            <img ref={overlayRef} className="overlayImg" src={overlayImage} alt="Nrth Dvsn" />
             </div>
 
         </div>
