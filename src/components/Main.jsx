@@ -14,7 +14,6 @@ function Main() {
         // Set the size of the overlay image to match the video's aspect ratio
         const videoHeight = videoRef.current.videoHeight;
         const videoWidth = videoRef.current.videoWidth;
-        const videoAspectRatio = videoWidth / videoHeight;
     }, []);
 
     const handleCanPlay = () => {
