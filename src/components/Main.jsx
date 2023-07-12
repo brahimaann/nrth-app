@@ -5,8 +5,7 @@ function Main() {
 
 
     const videoRef = useRef(videoBG);
-    const overlayRef = useRef(overlayImage);
-
+    
     useEffect(() => {
         // Start playing the video and set it to loop infinitely
         videoRef.current.play();
