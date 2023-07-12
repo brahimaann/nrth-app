@@ -15,7 +15,6 @@ function Main() {
         const videoHeight = videoRef.current.videoHeight;
         const videoWidth = videoRef.current.videoWidth;
         const videoAspectRatio = videoWidth / videoHeight;
-        overlayRef.current.style.width = `${100 * videoAspectRatio}%`;
     }, []);
 
     const handleCanPlay = () => {
