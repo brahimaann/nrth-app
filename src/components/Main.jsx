@@ -31,7 +31,7 @@ function Main() {
         <div className="Main">
 
 
-            <video ref={videoRef} className="video-background" autoPlay loop muted playsInline >
+            <video ref={videoRef} className="video-background" autoPlay loop muted playsInline onCanPlay={handleCanPlay} >
                 <source src={videoBG} type="video/mp4" />
             </video>
             <div className="content">
